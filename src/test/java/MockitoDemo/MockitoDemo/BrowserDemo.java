@@ -91,8 +91,8 @@ public class BrowserDemo {
             browserOptions.setPlatformName("macOS Sonoma");
             browserOptions.setBrowserVersion("17");
             HashMap<String, Object> ltOptions = new HashMap<String, Object>();
-            ltOptions.put("username", "sripriyapkulkarni");
-            ltOptions.put("accessKey", "NMt43ZDK7n5MrTZkp8NjsTXjiveSA4JPIGjUqvt3uwSbSwLAjo");
+            ltOptions.put("username", "username");
+            ltOptions.put("accessKey", "accesskey");
             ltOptions.put("project", "Junit Mockito Safari");
             ltOptions.put("w3c", true);
             browserOptions.setCapability("LT:Options", ltOptions);
